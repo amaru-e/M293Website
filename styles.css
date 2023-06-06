@@ -480,9 +480,22 @@ footer p {
         font-size: 0.7em;
     }
 
+    .TitelName {
+        font-size: 2em;
+    }
+
+    .TitelJob {
+        font-size: 1em;
+    }
+
+    #AndrewTatePlaceholder {
+        width: 80%;
+    }
+
     .TitelScreen {
         display: flex;
         justify-content: space-evenly;
+        align-items: center;
     }
 
     .TitelRest {
