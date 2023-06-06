@@ -331,6 +331,13 @@ button:hover, label:hover {
 footer {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+#video {
+    margin-top: 20px;
+    height: 315px;
+    width: 560px;
 }
 
 footer p {
@@ -473,6 +480,11 @@ footer p {
     #PortfolioSpan6 {
         font-size: 1em;
     }
+
+    #video {
+        width: 25em;
+        height: 14em;
+    }
 }
 
 @media screen and (max-width:450px){
@@ -553,5 +565,10 @@ footer p {
 
     input, textarea {
         width: 80%;
+    }
+
+    #video {
+        width: 12.5em;
+        height: 7em;
     }
 }
